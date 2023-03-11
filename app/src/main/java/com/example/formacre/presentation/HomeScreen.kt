@@ -22,7 +22,7 @@ import com.example.formacre.R
 
 
 @Composable
-fun HomePage(){
+fun homeScreen(){
     Box(modifier = Modifier
         .fillMaxSize()
         .background(Color.Black))

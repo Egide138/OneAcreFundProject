@@ -8,8 +8,7 @@ import androidx.compose.material.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.formacre.presentation.HomePage
-import com.example.formacre.presentation.Login
+import com.example.formacre.navigation.navigation
 import com.example.formacre.presentation.UsersRegistrationForm
 import com.example.formacre.ui.theme.FormAcreTheme
 
@@ -23,7 +22,8 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    HomePage()
+                    navigation()
+//                    HomePage()
 //                    UsersRegistrationForm()
                 }
             }
